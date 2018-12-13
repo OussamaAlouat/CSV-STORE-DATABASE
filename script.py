@@ -2,6 +2,7 @@ import csv
 import datetime
 import MySQLdb
 import sys
+version = '1.0.0'
 def csv_sql(cur):
     def read_file(file):
         reader=csv.reader(open(file,'r'))
